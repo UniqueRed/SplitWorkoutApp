@@ -1,0 +1,51 @@
+body {
+  background-color: #1e1e1e;
+  color: #e1e1e1;
+  font-family: Comfortaa;
+}
+
+#title {
+  text-align: center;
+}
+
+.schedule-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.day-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 10px;
+  background-color: #323232;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.day-name {
+  text-align: center;
+}
+
+.day-title {
+  background-color: #2d2d2d;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  color: #e1e1e1;
+  width: 100%;
+  padding: 10px;
+}
+
+.add-btn {
+  background-color: #2d2d2d;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  color: #e1e1e1;
+  width: 100%;
+  padding: 10px;
+}

@@ -1,9 +1,13 @@
 import React from 'react'
+import Schedule from './components/Schedule'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <h1 id="title">SPLIT</h1>
+      <Schedule></Schedule>
+    </>
   )
 }
-
+ 
 export default App
